@@ -1,6 +1,6 @@
 {
   "name": "raw-paste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get raw source from (almost) any pastebin",
   "main": "src/index.js",
   "directories": {
