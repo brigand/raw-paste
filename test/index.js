@@ -25,5 +25,10 @@ describe('getRawPaste', function() {
   it('works for dpaste', function() {
     return getRawPaste('http://dpaste.com/3XNRG4G').then(assertionHandler);
   });
+
+  it('works for larvel', function() {
+    return getRawPaste('http://laravel.io/bin/QNxPx').then(assertionHandler);
+
+  });
 });
 
